@@ -541,11 +541,20 @@ function ProductList() {
         alignItems: 'center',
         width: '1100px',
     };
+
     const styleA = {
         color: 'white',
         fontSize: '30px',
         textDecoration: 'none',
+        cursor: 'pointer',
     };
+    
+    // const styleA = {
+    //     color: 'white',
+    //     fontSize: '30px',
+    //     textDecoration: 'none',
+        
+    // };
     const handleCartClick = (e) => {
         e.preventDefault();
         setShowCart(true);
